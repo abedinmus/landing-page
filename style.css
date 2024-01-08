@@ -1,0 +1,16 @@
+body {
+    font-family: Roboto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+} 
