@@ -1,7 +1,6 @@
 body {
     font-family: Roboto;
     background-color: #1f2937;
-    color: white;
 }
 
 header {
@@ -39,6 +38,7 @@ nav a {
 #placeholder-img {
     width: 400px;
     height: auto;
+
 }
 
 button {
@@ -65,9 +65,56 @@ button {
     padding: 20px;
 }
 
+.info-boxes {
+    display: flex;
+}
+
+.info-img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 18px;
+}
+
+#quote {
+    background-color: #e5e7eb;
+}
+
+#quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+#quote cite {
+    font-style: italic;
+    font-size: 18px;
+    font-style: normal;
+    align-self: flex-end;
+}
+
+#cta-section {
+    background-color: #e5e7eb;
+    padding: 30px;
+}
+
+.blue-box {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid #3882f6;
+    border-radius: 20px;
+    display: flex;
+}
+
+.blue-box div button {
+}
+
 
 footer {
     display: flex;
     justify-content: center;
+    color: #e5e7eb;
 }
 
