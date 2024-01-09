@@ -42,8 +42,27 @@ nav a {
 }
 
 button {
+    color: white;
+    border: none;
     background-color: #3882f6;
-    border-radius: 2px;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#info {
+    background-color: white;
+
+}
+
+#info h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    text-align: center;
+    padding: 20px;
 }
 
 
