@@ -1,16 +1,54 @@
 body {
     font-family: Roboto;
+    background-color: #1f2937;
+    color: white;
 }
 
-.header-container {
+header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+
 }
 
-.links {
-    list-style-type: none;
+#header-logo {
+    width: 100px;
+    height: auto
+}
+
+nav a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+#hero {
     display: flex;
-    margin: 0;
-    padding: 0;
-} 
+}
+
+.hero-left h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#placeholder-img {
+    width: 400px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 2px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
